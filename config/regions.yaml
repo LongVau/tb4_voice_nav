@@ -1,0 +1,114 @@
+map:
+  image: map.pgm
+  width: 403
+  height: 402
+  resolution: 0.05
+  origin:
+  - -10.1
+  - -10.1
+  - 0.0
+regions_count: 4
+regions:
+- id: 1
+  code: A
+  name: Khu vực A
+  semantic_name: Phòng học
+  aliases:
+  - khu vực a
+  - phòng a
+  - vùng a
+  - điểm a
+  - phòng học
+  - khu a
+  - a
+  pixel_center:
+  - 139
+  - 139
+  goal_pose:
+    x: -3.125
+    y: 3.025
+    yaw: 0.0
+  clearance_m: 2.087
+  area_px: 18657
+  color_rgb:
+  - 66
+  - 135
+  - 245
+- id: 2
+  code: B
+  name: Khu vực B
+  semantic_name: Phòng thí nghiệm
+  aliases:
+  - khu vực b
+  - phòng b
+  - vùng b
+  - điểm b
+  - phòng thí nghiệm
+  - phòng lab
+  - khu b
+  - b
+  pixel_center:
+  - 81
+  - 276
+  goal_pose:
+    x: -6.025
+    y: -3.825
+    yaw: 0.0
+  clearance_m: 2.0
+  area_px: 11681
+  color_rgb:
+  - 52
+  - 199
+  - 89
+- id: 3
+  code: C
+  name: Khu vực C
+  semantic_name: Hành lang
+  aliases:
+  - khu vực c
+  - phòng c
+  - vùng c
+  - điểm c
+  - hành lang c
+  - hành lang
+  - khu c
+  - c
+  pixel_center:
+  - 50
+  - 49
+  goal_pose:
+    x: -7.575
+    y: 7.525
+    yaw: 0.0
+  clearance_m: 2.45
+  area_px: 8936
+  color_rgb:
+  - 255
+  - 159
+  - 10
+- id: 4
+  code: D
+  name: Khu vực D
+  semantic_name: Văn phòng
+  aliases:
+  - khu vực d
+  - phòng d
+  - vùng d
+  - điểm d
+  - văn phòng
+  - phòng làm việc
+  - khu d
+  - d
+  pixel_center:
+  - 326
+  - 241
+  goal_pose:
+    x: 6.225
+    y: -2.075
+    yaw: 0.0
+  clearance_m: 2.0
+  area_px: 9283
+  color_rgb:
+  - 191
+  - 90
+  - 242
